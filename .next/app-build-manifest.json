@@ -9,8 +9,27 @@
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
       "static/chunks/app/page.js"
+    ],
+    "/search/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/search/page.js"
+    ],
+    "/restaurant/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/restaurant/[slug]/page.js"
+    ],
+    "/reserve/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/reserve/[slug]/page.js"
+    ],
+    "/restaurant/[slug]/menu/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/restaurant/[slug]/menu/page.js"
     ]
   }
 }
