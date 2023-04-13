@@ -11,7 +11,6 @@ const ReservationPage = () => {
                 <div className="border-t h-screen">
                     <div className="py-9 w-3/5 m-auto">
                         <ReserveHeader/>
-                        {/* FORM */}
                         <ReserveForm />
                     </div>
                 </div>
